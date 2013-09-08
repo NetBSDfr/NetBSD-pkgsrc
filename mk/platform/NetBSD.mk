@@ -50,11 +50,8 @@ ULIMIT_CMD_memorysize?=		ulimit -m `ulimit -H -m`
 ULIMIT_CMD_cputime?=		ulimit -t `ulimit -H -t`
 
 # Native X11 is only supported on NetBSD-5 and later.
-# On NetBSD-5, native X11 has enough issues that we default
-# to modular.
-.if ${OPSYS_VERSION} >= 060000
-X11_TYPE?=		native
-.endif
+# Modular Xorg is the default
+X11_TYPE?=		modular
 
 _OPSYS_EMULDIR.aout=		/emul/aout
 _OPSYS_EMULDIR.darwin=		/emul/darwin
