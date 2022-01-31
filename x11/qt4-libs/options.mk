@@ -2,6 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.qt4
 PKG_SUPPORTED_OPTIONS=	cups debug gtk2
+PKG_SUGGESTED_OPTIONS=	cups
 
 .include "../../mk/bsd.options.mk"
 

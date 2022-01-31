@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.freerdp2
 PKG_SUPPORTED_OPTIONS=		alsa pcsc pulseaudio cups wayland x11
-PKG_SUGGESTED_OPTIONS=		x11 pcsc
+PKG_SUGGESTED_OPTIONS=		cups x11 pcsc
 PKG_SUGGESTED_OPTIONS.Linux=	alsa
 
 .include "../../devel/wayland/platform.mk"
