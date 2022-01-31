@@ -2,6 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.epdfview
 PKG_SUPPORTED_OPTIONS=	cups
+PKG_SUGGESTED_OPTIONS=	cups
 
 .include "../../mk/bsd.options.mk"
 

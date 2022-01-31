@@ -9,7 +9,7 @@
 #
 PKG_OPTIONS_VAR=	PKG_OPTIONS.samba
 PKG_SUPPORTED_OPTIONS=	ads cups fam ldap pam winbind
-PKG_SUGGESTED_OPTIONS=	ldap pam winbind
+PKG_SUGGESTED_OPTIONS=	cups ldap pam winbind
 
 .include "../../mk/bsd.fast.prefs.mk"
 
