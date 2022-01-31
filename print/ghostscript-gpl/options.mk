@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.ghostscript
 PKG_SUPPORTED_OPTIONS=	x11 cups debug fontconfig disable-compile-inits utf8
-PKG_SUGGESTED_OPTIONS=	x11 fontconfig utf8
+PKG_SUGGESTED_OPTIONS=	x11 cups fontconfig utf8
 
 .include "../../mk/bsd.options.mk"
 

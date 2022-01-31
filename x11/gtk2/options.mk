@@ -2,13 +2,14 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.gtk2
 PKG_SUPPORTED_OPTIONS=		cups debug introspection
+PKG_SUGGESTED_OPTIONS=		cups
 PKG_OPTIONS_REQUIRED_GROUPS=	gdk-target
 PKG_OPTIONS_GROUP.gdk-target=	x11
 .if exists(/System/Library/Frameworks/Quartz.framework)
 PKG_OPTIONS_GROUP.gdk-target+=	quartz
-PKG_SUGGESTED_OPTIONS=		quartz
+PKG_SUGGESTED_OPTIONS+=		quartz
 .else
-PKG_SUGGESTED_OPTIONS=		x11
+PKG_SUGGESTED_OPTIONS+=		x11
 .endif
 
 PKG_SUGGESTED_OPTIONS+=	${${USE_CROSS_COMPILE:tl} == "yes":?:introspection}
