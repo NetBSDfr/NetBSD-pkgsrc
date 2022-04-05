@@ -17,13 +17,12 @@ CONFIGURE_ARGS+=		--enable-gui-build
 CONFIGURE_ARGS+=		--enable-policykit
 EGFILES+=			dbus-1/system.d/com.hp.hplip.conf
 MAKE_DIRS+=			${PKG_SYSCONFDIR}/dbus-1/system.d
-.include "../../security/policykit/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 DEPENDS+=			${PYPKGPREFIX}-notify2-[0-9]*:../../sysutils/py-notify2
+DEPENDS+=			${PYPKGPREFIX}-qt5-[0-9]*:../../x11/qt5
 PLIST_SRC+=			PLIST.qt5
 CONFIGURE_ARGS+=		--disable-qt4
 CONFIGURE_ARGS+=		--enable-qt5
-.include "../../x11/py-qt5/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=		--disable-policykit
 CONFIGURE_ARGS+=		--disable-qt4
