@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.bitcoin
 PKG_SUPPORTED_OPTIONS+=	qt6
-# qt6 is off because it doubles the footprint of the package.
+PKG_SUGGESTED_OPTIONS+=	qt6
 # Please do not enable it by default; instead, create a split
 # package.
 
