@@ -2,6 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.bitcoin
 PKG_SUPPORTED_OPTIONS+=		qt5 upnp
+PKG_SUGGESTED_OPTIONS+=		qt5 upnp
 # qt5 is off because it doubles the footprint of the package.
 # Please do not enable it by default; instead, create a split
 # package.
