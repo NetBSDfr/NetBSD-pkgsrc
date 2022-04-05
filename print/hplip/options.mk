@@ -4,32 +4,32 @@
 # http://hplipopensource.com/hplip-web/install/manual/distros/other.html
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.hplip
-PKG_SUPPORTED_OPTIONS=	fax sane # qt5
-PKG_SUGGESTED_OPTIONS=	fax
+PKG_SUPPORTED_OPTIONS=	fax sane qt5
+PKG_SUGGESTED_OPTIONS=	fax sane qt5
 
 .include "../../mk/bsd.options.mk"
 
 # NB the qt5 option results in components that don't entirely function
 # correctly, at least on NetBSD. This needs more work.
-#.if !empty(PKG_OPTIONS:Mqt5)
-#PYTHON_VERSIONS_INCOMPATIBLE=	27 # py-pyphen
-#CONFIGURE_ARGS+=		--enable-gui-build
-#CONFIGURE_ARGS+=		--enable-policykit
-#EGFILES+=			dbus-1/system.d/com.hp.hplip.conf
-#MAKE_DIRS+=			${PKG_SYSCONFDIR}/dbus-1/system.d
-#.include "../../security/policykit/buildlink3.mk"
-#.include "../../sysutils/desktop-file-utils/desktopdb.mk"
-#DEPENDS+=			${PYPKGPREFIX}-notify2-[0-9]*:../../sysutils/py-notify2
-#PLIST_SRC+=			PLIST.qt5
-#CONFIGURE_ARGS+=		--disable-qt4
-#CONFIGURE_ARGS+=		--enable-qt5
-#.include "../../x11/py-qt5/buildlink3.mk"
-#.else
+.if !empty(PKG_OPTIONS:Mqt5)
+PYTHON_VERSIONS_INCOMPATIBLE=	27 # py-pyphen
+CONFIGURE_ARGS+=		--enable-gui-build
+CONFIGURE_ARGS+=		--enable-policykit
+EGFILES+=			dbus-1/system.d/com.hp.hplip.conf
+MAKE_DIRS+=			${PKG_SYSCONFDIR}/dbus-1/system.d
+.include "../../security/policykit/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+DEPENDS+=			${PYPKGPREFIX}-notify2-[0-9]*:../../sysutils/py-notify2
+PLIST_SRC+=			PLIST.qt5
+CONFIGURE_ARGS+=		--disable-qt4
+CONFIGURE_ARGS+=		--enable-qt5
+.include "../../x11/py-qt5/buildlink3.mk"
+.else
 CONFIGURE_ARGS+=		--disable-policykit
 CONFIGURE_ARGS+=		--disable-qt4
 CONFIGURE_ARGS+=		--disable-qt5
 CONFIGURE_ARGS+=		--disable-gui-build
-#.endif
+.endif
 
 .if !empty(PKG_OPTIONS:Mfax)
 PLIST_SRC+=		PLIST.fax
