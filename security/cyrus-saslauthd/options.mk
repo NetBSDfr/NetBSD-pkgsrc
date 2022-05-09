@@ -2,6 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.cyrus-saslauthd
 PKG_SUPPORTED_OPTIONS=	pam kerberos ldap gssapi
+PKG_SUGGESTED_OPTIONS=	ldap
 
 .include "../../mk/bsd.options.mk"
 
