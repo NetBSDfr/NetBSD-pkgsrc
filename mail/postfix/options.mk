@@ -4,7 +4,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.postfix
 PKG_SUPPORTED_OPTIONS=	blocklist sasl tls eai
-PKG_SUGGESTED_OPTIONS=	blocklist tls
+PKG_SUGGESTED_OPTIONS=	blocklist sasl tls
 
 .include "../../mk/bsd.options.mk"
 
