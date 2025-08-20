@@ -1,5 +1,84 @@
-$NetBSD: CHANGES-pkgsrc-2025Q2,v 1.1.2.1 2025/06/30 09:01:36 bsiegert Exp $
+$NetBSD: CHANGES-pkgsrc-2025Q2,v 1.1.2.11 2025/08/04 15:11:08 maya Exp $
 
 Changes to packages and infrastructure on the 2025Q2 branch:
 
+Pullup ticket #6976 - requested by taca
+lang/php82: Security fix
 
+Pullup ticket #6977 - requested by taca
+lang/php81: Security fix
+
+Pullup ticket #6978 - requested by taca
+lang/php83: Security fix
+
+Pullup ticket #6979 - requested by taca
+lang/php84: Security fix
+
+Pullup ticket #6980 - requested by bouyer
+sysutils/xenkernel418: Security fix
+sysutils/xentools418: Security fix
+
+Pullup ticket #6981 - requested by taca
+databases/redis: Security fix
+
+Pullup ticket #6982 - requested by wiz
+devel/git: Security fix
+
+Pullup ticket #6983 - requested by bsiegert
+lang/go123: Security fix
+lang/go124: Security fix
+
+Pullup ticket #6984 - requested by taca
+security/gnutls: Security fix
+
+Pullup ticket #6985 - requested by taca
+net/samba4: Security fix
+
+Pullup ticket #6986 - requested by taca
+lang/ruby32-base: Security fix
+
+Pullup ticket #6987 - requested by taca
+lang/ruby33: Security fix
+
+Pullup ticket #6988 - requested by taca
+lang/ruby34: Security fix
+
+Pullup ticket #6989 - requested by taca
+www/apache24: Security fix
+
+Pullup ticket #6990 - requested by taca
+net/bind918: Security fix
+
+Pullup ticket #6991 - requested by gdt
+chat/matrix-synapse: Update package in anticipation of security fix
+
+Pullup ticket #6992 - requested by he
+lang/rust: Runtime fix to reduce memory usage on NetBSD/i386
+
+Pullup ticket #6993 - requested by morr
+editors/vim-share: Security fix
+
+Pullup ticket #6994 - requested by gutteridge
+www/firefox128: Security fix
+www/firefox128-l10n: Security fix
+
+Pullup ticket #6995 - requested by taca
+archivers/7-zip: Security fix
+
+Pullup ticket #6996 - requested by taca
+www/apache24: Security fix
+
+Pullup ticket #6997 - requested by taca
+security/p5-Authen-SASL: Security fix
+
+Pullup ticket #6998 - requested by taca
+net/unbound: Security fix
+
+Pullup ticket #6999 - requested by nia
+graphics/gdk-pixbuf2: Security fix
+
+Pullup ticket #7000 - requested by nia
+www/palemoon: Security fix
+
+Pullup ticket #7001 - requested by nia
+www/arcticfox: Security fix
