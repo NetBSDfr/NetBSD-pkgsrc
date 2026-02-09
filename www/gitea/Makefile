@@ -1,8 +1,7 @@
-# $NetBSD: Makefile,v 1.126 2025/12/02 19:25:24 bsiegert Exp $
+# $NetBSD: Makefile,v 1.130 2026/01/31 14:09:36 khorben Exp $
 
-DISTNAME=	gitea-1.23.8
+DISTNAME=	gitea-1.24.7
 MASTER_SITES=	${MASTER_SITE_GITHUB:=go-gitea/}
-PKGREVISION=	5
 CATEGORIES=	www
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
@@ -11,11 +10,13 @@ HOMEPAGE=	https://gitea.io/
 COMMENT=	Compact self-hosted Git service
 LICENSE=	mit
 
+GO_VERSION_REQD=	124
+
 #
 # The front-end files do not change every release, so only bump this when
 # necessary to avoid excessive uploads to LOCAL_PORTS.
 #
-FRONTEND=		gitea-1.23.8-frontend.tar.gz
+FRONTEND=		gitea-1.24.7-frontend.tar.gz
 SITES.${FRONTEND}=	${MASTER_SITE_LOCAL}
 DISTFILES:=		${DEFAULT_DISTFILES} ${FRONTEND}
 EXTRACT_ONLY=		${DEFAULT_DISTFILES} ${FRONTEND}
