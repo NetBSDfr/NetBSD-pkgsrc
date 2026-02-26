@@ -2,7 +2,7 @@
 
 .include "Makefile.common"
 
-PKGREVISION=	1
+PKGREVISION=	2
 
 COMMENT=	Remote execution and configuration management system
 
