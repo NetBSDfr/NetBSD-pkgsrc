@@ -2,6 +2,8 @@
 
 .include "Makefile.common"
 
+PKGREVISION=	1
+
 COMMENT=	Remote execution and configuration management system
 
 TOOL_DEPENDS+=	${PYPKGPREFIX}-setuptools>=78:../../devel/py-setuptools
