@@ -1,11 +1,6 @@
 $NetBSD: distinfo,v 1.20 2025/02/15 15:49:45 wiz Exp $
 
-BLAKE2s (pkg-1.10.99.7.tar.xz) = 61884e04f4a8283925b53d388d19e3e56a0744459230f8d2c66ccd31e1b78ffb
-SHA512 (pkg-1.10.99.7.tar.xz) = 32bfb919da140bb7b75427ea6351aee3a4a297a0e13b5c722bdd5a0b8f488085883df36929fb97ff6fd944b901fa0fc95174b1474a9a4422047ffc626869e43b
-Size (pkg-1.10.99.7.tar.xz) = 2217824 bytes
-SHA1 (patch-configure) = b9897af770d89b07652d5a2fbc7116b758b5e80c
-SHA1 (patch-libpkg_pkg__elf.c) = 4cff6afe164502f49abb11a7a2a1936331eeaf7c
-SHA1 (patch-scripts_periodic_411.pkg-backup) = cba8a752c07616e7efa2b775363f91446b570ff3
-SHA1 (patch-scripts_periodic_411.pkg-backup.in) = 4dbeee9b07d7a7795a02219f4d2f12a039c58aaa
-SHA1 (patch-src_main.c) = c161270714a62110f9a42585ff960a2c5f5b4157
-SHA1 (patch-src_pkgcli.h) = 5df652de38bab147bc7f245db340dd5811f81d23
+BLAKE2s (pkg-2.6.1.tar.gz) = b6a361fe0d2c7d7738b22fb1e443b5153f17cf8abe699d586d54110034ef0142
+SHA512 (pkg-2.6.1.tar.gz) = c082d9079f679e6d7c8d0f86862d87acafb9b7576b4a6fa79159ac0f30fba730ce88384c3b1a6b3e7cdf6d8a3c5f6bdcbaf3e02db6763da218f5ee2566bbbbc9
+Size (pkg-2.6.1.tar.gz) = 16517949 bytes
+SHA1 (patch-external_libcurl_curl__config.h) = 2e5a94fd5e0d03d8a256a7a5775391e4363891ca
