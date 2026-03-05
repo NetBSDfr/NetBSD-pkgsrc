@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg-2.6.1
+DISTNAME=	pkg-2.6.2
 CATEGORIES=	pkgtools
 MASTER_SITES=	${MASTER_SITE_GITHUB:=FreeBSD/}
 
@@ -11,6 +11,7 @@ LICENSE=	2-clause-bsd
 
 #USE_CWRAPPERS=	no
 USE_LANGUAGES=	c
+USE_LIBTOOL=	yes
 
 HAS_CONFIGURE=	yes
 ## Build outside ${WRKSRC}

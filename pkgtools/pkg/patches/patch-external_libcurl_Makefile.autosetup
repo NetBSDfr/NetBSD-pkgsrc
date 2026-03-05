@@ -1,0 +1,14 @@
+$NetBSD$
+
+Also build curl_memrchr.c for platforms without memrchr(3)
+
+--- external/libcurl/Makefile.autosetup.orig	2026-03-04 10:55:26.000000000 +0000
++++ external/libcurl/Makefile.autosetup
+@@ -28,6 +28,7 @@ SRCS=	\
+ 	curl_addrinfo.c \
+ 	curl_fopen.c \
+ 	curl_get_line.c \
++	curl_memrchr.c \
+ 	curl_threads.c \
+ 	curl_trc.c \
+ 	dynbuf.c \

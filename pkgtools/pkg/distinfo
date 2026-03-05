@@ -1,6 +1,8 @@
 $NetBSD: distinfo,v 1.20 2025/02/15 15:49:45 wiz Exp $
 
-BLAKE2s (pkg-2.6.1.tar.gz) = b6a361fe0d2c7d7738b22fb1e443b5153f17cf8abe699d586d54110034ef0142
-SHA512 (pkg-2.6.1.tar.gz) = c082d9079f679e6d7c8d0f86862d87acafb9b7576b4a6fa79159ac0f30fba730ce88384c3b1a6b3e7cdf6d8a3c5f6bdcbaf3e02db6763da218f5ee2566bbbbc9
-Size (pkg-2.6.1.tar.gz) = 16517949 bytes
-SHA1 (patch-external_libcurl_curl__config.h) = 2e5a94fd5e0d03d8a256a7a5775391e4363891ca
+BLAKE2s (pkg-2.6.2.tar.gz) = 155ecccf7d34b7c1e97e9ff273782e4ce63881408b910302611edff912a92842
+SHA512 (pkg-2.6.2.tar.gz) = 69bf00f820c21404d0d423cc62eb6c1709605e6b1c19905376e1115a0ac02209aae1e13f55125afdf7035b23577c216f6350fa24e711e219a98dc4a5e9c1cee5
+Size (pkg-2.6.2.tar.gz) = 16518981 bytes
+SHA1 (patch-external_libcurl_Makefile.autosetup) = 5fe49db4173450a9c26e349149c77ea0fe0a74d1
+SHA1 (patch-external_libcurl_curl__config.h) = b49bb61b1415b631eb37dbe4347e68cd49a0d2d4
+SHA1 (patch-libpkg_Makefile.autosetup) = c5eb85fe0d73dd0a1d414eaa71d0e0fa59f1048a

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- libpkg/Makefile.autosetup.orig	2026-03-04 10:55:26.000000000 +0000
++++ libpkg/Makefile.autosetup
+@@ -190,7 +190,7 @@ lib$(LIB)$(LIBSOEXT): $(STATIC_LIBS)
+ 
+ @if pkgos_darwin
+ lib$(LIB)_flat.a: $(STATIC_LIBS)
+-	libtool -static -o lib$(LIB)_flat.a $(STATIC_LIBS)
++	libtool --mode=link -static -o lib$(LIB)_flat.a $(STATIC_LIBS)
+ @else
+ lib$(LIB)_flat.a: ${STATIC_LIBS} mergelib_script
+ 	$(AR) -M < mergelib_script
