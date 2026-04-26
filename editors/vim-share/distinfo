@@ -1,8 +1,8 @@
-$NetBSD: distinfo,v 1.227.2.2 2026/04/09 18:06:25 maya Exp $
+$NetBSD: distinfo,v 1.227.2.4 2026/04/25 19:16:14 bsiegert Exp $
 
-BLAKE2s (vim-9.2.0319.tar.gz) = 549f11faa16f1d40e5891f1ca341621ed5c139e817cadae603ca95e5ebf314b1
-SHA512 (vim-9.2.0319.tar.gz) = 52b7c41ed55a838252831eb57d5a438fe35af6c119ed7ba878e98491d19daab616889379ce1739f87fe391133b401d0d3bd702fbd5e4c7aeac01bd8b239cfac4
-Size (vim-9.2.0319.tar.gz) = 19857581 bytes
+BLAKE2s (vim-9.2.0390.tar.gz) = cc1c2926b85f4a4523103156c6a75a5853d5cafc8e00d4d614ccbe00fe3fdc64
+SHA512 (vim-9.2.0390.tar.gz) = 4f56dbe3509400fc464c9ea9c230c7933e677c865149bf6b0def11bb72342e069249049ddcd97b6f9aee8985b99416a30bf51456e4e00b9dd73ce58b0e983e65
+Size (vim-9.2.0390.tar.gz) = 19894266 bytes
 SHA1 (patch-Makefile) = ba433a222f8dc24dabb0b3fabce219acb4565358
 SHA1 (patch-feature.h) = a3c58ddf4297df39a06652fa1157ee4be2dfadf5
 SHA1 (patch-popupwin.c) = c191b9648ce4bc6af8456ef699948bf9592797de
