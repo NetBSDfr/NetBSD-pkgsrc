@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.4 2025/12/30 16:01:23 kikadf Exp $
+# $NetBSD: Makefile,v 1.4.4.2 2026/07/23 23:33:53 gdt Exp $
 
 DISTNAME=	1.11.4
 PKGNAME=	scdoc-${DISTNAME}

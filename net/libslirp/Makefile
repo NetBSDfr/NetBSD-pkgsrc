@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.9 2026/06/25 04:14:43 khorben Exp $
+# $NetBSD: Makefile,v 1.8.6.1 2026/07/22 15:15:25 maya Exp $
 
 DISTNAME=	libslirp-4.9.3
 CATEGORIES=	net
