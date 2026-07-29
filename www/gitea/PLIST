@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.21 2026/07/28 13:51:12 khorben Exp $
+@comment $NetBSD$
 sbin/gitea
 share/examples/gitea/app.ini.sample
 share/gitea/options/fileicon/material-icon-rules.json
@@ -1318,6 +1318,7 @@ share/gitea/templates/package/shared/cleanup_rules/preview.tmpl
 share/gitea/templates/package/shared/list.tmpl
 share/gitea/templates/package/shared/versionlist.tmpl
 share/gitea/templates/package/shared/view.tmpl
+share/gitea/templates/package/shared/visibility_badge.tmpl
 share/gitea/templates/package/view.tmpl
 share/gitea/templates/post-install.tmpl
 share/gitea/templates/projects/list.tmpl
