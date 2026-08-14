@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-pkgsrc-2026Q2,v 1.1.2.9 2026/07/27 23:13:19 maya Exp $
+$NetBSD: CHANGES-pkgsrc-2026Q2,v 1.1.2.11 2026/08/10 12:05:03 bsiegert Exp $
 
 Changes to packages and infrastructure on the pkgsrc-2026Q2 branch:
 
@@ -156,3 +156,16 @@ editors/vim-share: Security fix
 
 Pullup ticket #7197 - requested by leot
 x11/slock: Bug fix
+
+Pullup ticket #7198 - requested by hauke
+security/vaultwarden: Security fix
+
+Pullup ticket #7223 - requested by tsutsui
+inputmethod/ibus: build fix
+
+Pullup ticket #7224 - requested by maya
+lang/perl5: security fix
+
+Pullup ticket #7225 - requested by nia
+www/palemoon: security fix
+

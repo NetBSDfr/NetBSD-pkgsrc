@@ -1,4 +1,4 @@
-$NetBSD: distinfo,v 1.144 2026/07/21 03:42:05 kim Exp $
+$NetBSD: distinfo,v 1.143.2.1 2026/08/01 20:33:28 maya Exp $
 
 BLAKE2s (array-var-nginx-module-0.06.tar.gz) = fa6ad2a2ce3c3eba3f69287b224e9c01fcaca29a083394ab74f2f655d3e2138b
 SHA512 (array-var-nginx-module-0.06.tar.gz) = bc72158856a1be18a26ee04c6b5b0f0a20bcce688610a493bf31e2a133e7eb12e11f7c18197a09a72b1513f6a08348ee5281b9d5b84cf43603539040ebd23c26

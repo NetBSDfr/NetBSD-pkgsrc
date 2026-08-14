@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.195 2026/07/21 03:42:05 kim Exp $
+# $NetBSD: Makefile,v 1.193.2.1 2026/08/01 20:33:28 maya Exp $
 
 DISTNAME=	nginx-1.30.4
 CATEGORIES=	www
