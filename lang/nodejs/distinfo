@@ -20,6 +20,7 @@ SHA1 (patch-deps_v8_src_strings_string-hasher.cc) = 655d497ba45c073b79527b3733ec
 SHA1 (patch-deps_v8_third__party_abseil-cpp_absl_debugging_internal_elf__mem__image.cc) = ccca21704265f98801bb97968b51c1432136b556
 SHA1 (patch-deps_v8_tools_profiling_run-llprof.sh) = b19994d3195cc97424a3cc2ffd3ae02eacc6ffa8
 SHA1 (patch-node.gypi) = 4a104dba6c22702211009bc60a6be6f87554e2fa
+SHA1 (patch-src_cares__wrap.h) = 954edcded7c2c7a8973ab78501e820315eb41646
 SHA1 (patch-src_compile__cache.cc) = 39a85bcb1ebe7c9bf7c431d6dc60dca5b9d63aaf
 SHA1 (patch-src_crypto_crypto__rsa.cc) = 299fc4326411d62d580dd3395b5d7f94c70164cb
 SHA1 (patch-src_inspector__agent.cc) = 3fd3d71f9d6013a6eb2a79e0442b31d2e2408a2f
